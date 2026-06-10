@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ef-001",
+    "name": "EDEKA Foodservice Berlin",
+    "street": "Großmarktstraße 12",
+    "zip": "12099",
+    "city": "Berlin",
+    "lat": 52.4796,
+    "lng": 13.3858,
+    "phone": "030 1234567",
+    "hours": [
+      { "day": "Mo–Fr", "time": "06:00–18:00" },
+      { "day": "Sa", "time": "06:00–14:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "ef-002",
+    "name": "EDEKA Foodservice Hamburg",
+    "street": "Großmarktring 5",
+    "zip": "20457",
+    "city": "Hamburg",
+    "lat": 53.5478,
+    "lng": 9.9897,
+    "phone": "040 9876543",
+    "hours": [
+      { "day": "Mo–Fr", "time": "05:30–17:30" },
+      { "day": "Sa", "time": "06:00–13:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "ef-003",
+    "name": "EDEKA Foodservice München",
+    "street": "Schäftlarnstraße 120",
+    "zip": "81371",
+    "city": "München",
+    "lat": 48.1115,
+    "lng": 11.5436,
+    "phone": "089 5551234",
+    "hours": [
+      { "day": "Mo–Fr", "time": "06:00–18:00" },
+      { "day": "Sa", "time": "06:00–14:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "ef-004",
+    "name": "EDEKA Foodservice Köln",
+    "street": "Marktstraße 33",
+    "zip": "50667",
+    "city": "Köln",
+    "lat": 50.9413,
+    "lng": 6.9583,
+    "phone": "0221 778899",
+    "hours": [
+      { "day": "Mo–Fr", "time": "06:00–18:00" },
+      { "day": "Sa", "time": "06:00–14:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "ean": "4006381333931", "name": "Rinderfilet Premium", "category": "Fleisch", "price": 24.99, "unit": "pro kg", "imageId": "rinderfilet" },
+  { "ean": "4006381333948", "name": "Lachsfilet Norwegen", "category": "Fisch", "price": 16.49, "unit": "pro kg", "imageId": "lachsfilet" },
+  { "ean": "4006381333955", "name": "Bio-Tomaten Strauch", "category": "Obst & Gemüse", "price": 9.99, "unit": "pro Kiste", "imageId": "tomaten" },
+  { "ean": "4006381333962", "name": "Mozzarella Classico", "category": "Molkereiprodukte", "price": 18.99, "unit": "pro Karton", "imageId": "mozzarella" },
+  { "ean": "4006381333979", "name": "Vollkornbrot Bäckerqualität", "category": "Backwaren", "price": 14.5, "unit": "pro Karton", "imageId": "vollkornbrot" },
+  { "ean": "4006381333986", "name": "Olivenöl Extra Vergine", "category": "Öle & Saucen", "price": 39.9, "unit": "pro Kanister", "imageId": "olivenoel" },
+  { "ean": "4006381333993", "name": "Pommes Frites tiefgefroren", "category": "Tiefkühl", "price": 28.0, "unit": "pro Karton", "imageId": "pommes" },
+  { "ean": "4006381334006", "name": "Mineralwasser still", "category": "Getränke", "price": 6.99, "unit": "pro Kasten", "imageId": "mineralwasser" },
+  { "ean": "4006381334013", "name": "Hähnchenbrustfilet", "category": "Fleisch", "price": 12.49, "unit": "pro kg", "imageId": "haehnchen" },
+  { "ean": "4006381334020", "name": "Parmesan gerieben", "category": "Molkereiprodukte", "price": 22.5, "unit": "pro Karton", "imageId": "parmesan" }
+]

@@ -1,14 +1,18 @@
 {
   "expo": {
-    "name": "cc-companion-tmp",
-    "slug": "cc-companion-tmp",
+    "name": "ONE",
+    "slug": "one-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "cccompaniontmp",
+    "scheme": "one-app",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Die Kamera wird zum Scannen von Produkt-Barcodes benötigt.",
+        "NSLocationWhenInUseUsageDescription": "Ihr Standort wird verwendet, um den nächstgelegenen Markt zu finden."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -28,11 +32,23 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#FFD500",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Die Kamera wird zum Scannen von Produkt-Barcodes benötigt."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Ihr Standort wird verwendet, um den nächstgelegenen Markt zu finden."
         }
       ]
     ],

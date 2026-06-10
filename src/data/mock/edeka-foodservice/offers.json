@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ef-offer-001",
+    "title": "Rinderfilet Premium",
+    "description": "Frisches Rinderfilet, vakuumiert, ca. 2 kg",
+    "category": "Fleisch",
+    "price": 24.99,
+    "unit": "pro kg",
+    "validUntil": "2026-06-30",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "rinderfilet"
+  },
+  {
+    "id": "ef-offer-002",
+    "title": "Lachsfilet Norwegen",
+    "description": "Frischer Lachs, ohne Gräten, 1 kg Packung",
+    "category": "Fisch",
+    "price": 16.49,
+    "unit": "pro kg",
+    "validUntil": "2026-06-30",
+    "branchIds": ["ef-001", "ef-002"],
+    "imageId": "lachsfilet"
+  },
+  {
+    "id": "ef-offer-003",
+    "title": "Bio-Tomaten Strauch",
+    "description": "Regionale Bio-Tomaten, Kiste à 5 kg",
+    "category": "Obst & Gemüse",
+    "price": 9.99,
+    "unit": "pro Kiste",
+    "validUntil": "2026-06-25",
+    "branchIds": ["ef-001", "ef-003", "ef-004"],
+    "imageId": "tomaten"
+  },
+  {
+    "id": "ef-offer-004",
+    "title": "Mozzarella Classico",
+    "description": "Mozzarella di Bufala, 12 x 125 g",
+    "category": "Molkereiprodukte",
+    "price": 18.99,
+    "unit": "pro Karton",
+    "validUntil": "2026-07-05",
+    "branchIds": ["ef-002", "ef-003", "ef-004"],
+    "imageId": "mozzarella"
+  },
+  {
+    "id": "ef-offer-005",
+    "title": "Vollkornbrot Bäckerqualität",
+    "description": "Vorgebackenes Vollkornbrot, 10 Stück",
+    "category": "Backwaren",
+    "price": 14.5,
+    "unit": "pro Karton",
+    "validUntil": "2026-06-28",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "vollkornbrot"
+  },
+  {
+    "id": "ef-offer-006",
+    "title": "Olivenöl Extra Vergine",
+    "description": "Kaltgepresstes Olivenöl, Kanister 5 l",
+    "category": "Öle & Saucen",
+    "price": 39.9,
+    "unit": "pro Kanister",
+    "validUntil": "2026-07-15",
+    "branchIds": ["ef-001", "ef-004"],
+    "imageId": "olivenoel"
+  },
+  {
+    "id": "ef-offer-007",
+    "title": "Pommes Frites tiefgefroren",
+    "description": "Klassische Pommes, 10 x 2,5 kg",
+    "category": "Tiefkühl",
+    "price": 28.0,
+    "unit": "pro Karton",
+    "validUntil": "2026-07-10",
+    "branchIds": ["ef-001", "ef-002", "ef-003"],
+    "imageId": "pommes"
+  },
+  {
+    "id": "ef-offer-008",
+    "title": "Mineralwasser still",
+    "description": "0,75 l Glasflaschen, 12er Kasten",
+    "category": "Getränke",
+    "price": 6.99,
+    "unit": "pro Kasten",
+    "validUntil": "2026-07-20",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "mineralwasser"
+  }
+]

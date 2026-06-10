@@ -1,0 +1,90 @@
+[
+  {
+    "id": "hh-offer-001",
+    "title": "Schweinenacken frisch",
+    "description": "Schweinenacken am Stück, ca. 3 kg",
+    "category": "Fleisch",
+    "price": 8.99,
+    "unit": "pro kg",
+    "validUntil": "2026-06-30",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "schweinenacken"
+  },
+  {
+    "id": "hh-offer-002",
+    "title": "Garnelen küchenfertig",
+    "description": "Tiefkühlgarnelen, geschält, 1 kg Beutel",
+    "category": "Fisch",
+    "price": 19.99,
+    "unit": "pro kg",
+    "validUntil": "2026-06-30",
+    "branchIds": ["hh-001", "hh-003"],
+    "imageId": "garnelen"
+  },
+  {
+    "id": "hh-offer-003",
+    "title": "Paprika gemischt",
+    "description": "Rot, gelb, grün – Kiste à 5 kg",
+    "category": "Obst & Gemüse",
+    "price": 8.49,
+    "unit": "pro Kiste",
+    "validUntil": "2026-06-25",
+    "branchIds": ["hh-001", "hh-002", "hh-004"],
+    "imageId": "paprika"
+  },
+  {
+    "id": "hh-offer-004",
+    "title": "Gouda jung am Stück",
+    "description": "Gouda-Käselaib, ca. 4 kg",
+    "category": "Molkereiprodukte",
+    "price": 6.5,
+    "unit": "pro kg",
+    "validUntil": "2026-07-05",
+    "branchIds": ["hh-002", "hh-003", "hh-004"],
+    "imageId": "gouda"
+  },
+  {
+    "id": "hh-offer-005",
+    "title": "Brötchen Aufbackware",
+    "description": "Tiefgekühlte Brötchen, 120 Stück",
+    "category": "Backwaren",
+    "price": 21.0,
+    "unit": "pro Karton",
+    "validUntil": "2026-06-28",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "broetchen"
+  },
+  {
+    "id": "hh-offer-006",
+    "title": "Sonnenblumenöl",
+    "description": "Raffiniertes Sonnenblumenöl, Kanister 10 l",
+    "category": "Öle & Saucen",
+    "price": 24.9,
+    "unit": "pro Kanister",
+    "validUntil": "2026-07-15",
+    "branchIds": ["hh-001", "hh-004"],
+    "imageId": "sonnenblumenoel"
+  },
+  {
+    "id": "hh-offer-007",
+    "title": "Gemüsemix tiefgefroren",
+    "description": "Bunter Gemüsemix, 10 x 1 kg",
+    "category": "Tiefkühl",
+    "price": 16.0,
+    "unit": "pro Karton",
+    "validUntil": "2026-07-10",
+    "branchIds": ["hh-001", "hh-002", "hh-003"],
+    "imageId": "gemuesemix"
+  },
+  {
+    "id": "hh-offer-008",
+    "title": "Apfelschorle",
+    "description": "0,5 l PET-Flaschen, 24er Kasten",
+    "category": "Getränke",
+    "price": 9.99,
+    "unit": "pro Kasten",
+    "validUntil": "2026-07-20",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "apfelschorle"
+  }
+]

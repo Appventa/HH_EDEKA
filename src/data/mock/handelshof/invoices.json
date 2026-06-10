@@ -1,0 +1,33 @@
+[
+  {
+    "id": "hh-inv-2026-0510",
+    "date": "2026-05-10",
+    "branchId": "hh-001",
+    "total": 312.85,
+    "items": [
+      { "name": "Schweinenacken frisch", "quantity": 15, "unit": "kg", "unitPrice": 8.99 },
+      { "name": "Brötchen Aufbackware", "quantity": 8, "unit": "Karton", "unitPrice": 21.0 },
+      { "name": "Apfelschorle", "quantity": 2, "unit": "Kasten", "unitPrice": 9.99 }
+    ]
+  },
+  {
+    "id": "hh-inv-2026-0524",
+    "date": "2026-05-24",
+    "branchId": "hh-001",
+    "total": 178.4,
+    "items": [
+      { "name": "Gouda jung am Stück", "quantity": 20, "unit": "kg", "unitPrice": 6.5 },
+      { "name": "Paprika gemischt", "quantity": 6, "unit": "Kiste", "unitPrice": 8.49 }
+    ]
+  },
+  {
+    "id": "hh-inv-2026-0607",
+    "date": "2026-06-07",
+    "branchId": "hh-002",
+    "total": 459.7,
+    "items": [
+      { "name": "Garnelen küchenfertig", "quantity": 15, "unit": "kg", "unitPrice": 19.99 },
+      { "name": "Gemüsemix tiefgefroren", "quantity": 10, "unit": "Karton", "unitPrice": 16.0 }
+    ]
+  }
+]

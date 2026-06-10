@@ -1,0 +1,12 @@
+[
+  { "ean": "4012345670012", "name": "Schweinenacken frisch", "category": "Fleisch", "price": 8.99, "unit": "pro kg", "imageId": "schweinenacken" },
+  { "ean": "4012345670029", "name": "Garnelen küchenfertig", "category": "Fisch", "price": 19.99, "unit": "pro kg", "imageId": "garnelen" },
+  { "ean": "4012345670036", "name": "Paprika gemischt", "category": "Obst & Gemüse", "price": 8.49, "unit": "pro Kiste", "imageId": "paprika" },
+  { "ean": "4012345670043", "name": "Gouda jung am Stück", "category": "Molkereiprodukte", "price": 6.5, "unit": "pro kg", "imageId": "gouda" },
+  { "ean": "4012345670050", "name": "Brötchen Aufbackware", "category": "Backwaren", "price": 21.0, "unit": "pro Karton", "imageId": "broetchen" },
+  { "ean": "4012345670067", "name": "Sonnenblumenöl", "category": "Öle & Saucen", "price": 24.9, "unit": "pro Kanister", "imageId": "sonnenblumenoel" },
+  { "ean": "4012345670074", "name": "Gemüsemix tiefgefroren", "category": "Tiefkühl", "price": 16.0, "unit": "pro Karton", "imageId": "gemuesemix" },
+  { "ean": "4012345670081", "name": "Apfelschorle", "category": "Getränke", "price": 9.99, "unit": "pro Kasten", "imageId": "apfelschorle" },
+  { "ean": "4012345670098", "name": "Putenbrust frisch", "category": "Fleisch", "price": 11.49, "unit": "pro kg", "imageId": "putenbrust" },
+  { "ean": "4012345670104", "name": "Frischkäse Natur", "category": "Molkereiprodukte", "price": 17.5, "unit": "pro Karton", "imageId": "frischkaese" }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "hh-001",
+    "name": "Handelshof Duisburg",
+    "street": "Krefelder Straße 137",
+    "zip": "47226",
+    "city": "Duisburg",
+    "lat": 51.3897,
+    "lng": 6.7287,
+    "phone": "02065 1234567",
+    "hours": [
+      { "day": "Mo–Fr", "time": "07:00–20:00" },
+      { "day": "Sa", "time": "07:00–18:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "hh-002",
+    "name": "Handelshof Essen",
+    "street": "Frohnhauser Straße 75",
+    "zip": "45127",
+    "city": "Essen",
+    "lat": 51.4556,
+    "lng": 7.0116,
+    "phone": "0201 9876543",
+    "hours": [
+      { "day": "Mo–Fr", "time": "07:00–20:00" },
+      { "day": "Sa", "time": "07:00–18:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "hh-003",
+    "name": "Handelshof Dortmund",
+    "street": "Westfalendamm 270",
+    "zip": "44141",
+    "city": "Dortmund",
+    "lat": 51.5067,
+    "lng": 7.5119,
+    "phone": "0231 5551234",
+    "hours": [
+      { "day": "Mo–Fr", "time": "07:00–20:00" },
+      { "day": "Sa", "time": "07:00–18:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "hh-004",
+    "name": "Handelshof Düsseldorf",
+    "street": "Höherweg 270",
+    "zip": "40231",
+    "city": "Düsseldorf",
+    "lat": 51.2304,
+    "lng": 6.8264,
+    "phone": "0211 778899",
+    "hours": [
+      { "day": "Mo–Fr", "time": "07:00–20:00" },
+      { "day": "Sa", "time": "07:00–18:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  }
+]

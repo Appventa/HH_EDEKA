@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ef-inv-2026-0512",
+    "date": "2026-05-12",
+    "branchId": "ef-001",
+    "total": 482.37,
+    "items": [
+      { "name": "Rinderfilet Premium", "quantity": 8, "unit": "kg", "unitPrice": 24.99 },
+      { "name": "Mineralwasser still", "quantity": 10, "unit": "Kasten", "unitPrice": 6.99 },
+      { "name": "Vollkornbrot Bäckerqualität", "quantity": 6, "unit": "Karton", "unitPrice": 14.5 }
+    ]
+  },
+  {
+    "id": "ef-inv-2026-0528",
+    "date": "2026-05-28",
+    "branchId": "ef-001",
+    "total": 219.6,
+    "items": [
+      { "name": "Mozzarella Classico", "quantity": 6, "unit": "Karton", "unitPrice": 18.99 },
+      { "name": "Bio-Tomaten Strauch", "quantity": 11, "unit": "Kiste", "unitPrice": 9.99 }
+    ]
+  },
+  {
+    "id": "ef-inv-2026-0603",
+    "date": "2026-06-03",
+    "branchId": "ef-002",
+    "total": 350.4,
+    "items": [
+      { "name": "Lachsfilet Norwegen", "quantity": 10, "unit": "kg", "unitPrice": 16.49 },
+      { "name": "Pommes Frites tiefgefroren", "quantity": 6, "unit": "Karton", "unitPrice": 28.0 }
+    ]
+  }
+]
