@@ -1,5 +1,7 @@
 {
   "customerNumber": "EF-100482931",
   "businessName": "Restaurant Adler",
-  "validUntil": "2027-12-31"
+  "holderName": "Max Mustermann",
+  "validUntil": "2027-12-31",
+  "address": "Torstraße 88, 10119 Berlin"
 }

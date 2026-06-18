@@ -8,7 +8,9 @@ export interface BrandColors {
   surface: string;
   text: string;
   textOnPrimary: string;
+  textOnAccent: string;
   textSecondary: string;
+  locationBarBackground: string;
   border: string;
   success: string;
   error: string;

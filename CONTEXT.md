@@ -79,13 +79,13 @@ return to the splash/brand-picker, per `strings.profil.demoReset`.
 ## Build order (one screen per session, test on phone between steps)
 
 1. ~~Splash, Brand Picker, Login, Tab shell~~ (done)
-2. Start/Dashboard refinement
-3. Digitale Kundenkarte (Code-128 barcode, brightness boost, flip animation)
-4. Märkte (Marktfinder) — map, nearest branch, branch detail sheet
-5. Angebote — feed, category filters, product cards
-6. Scanner — camera EAN scan -> product detail
-7. Einkaufsliste — quantities, swipe-to-delete, persistence
-8. Rechnungen — invoice list + detail
+2. ~~Start/Dashboard refinement~~ (done)
+3. ~~Digitale Kundenkarte (Code-128 barcode, brightness boost, flip animation)~~ (done)
+4. ~~Märkte (Marktfinder) — map, nearest branch, branch detail sheet~~ (done)
+5. ~~Angebote — feed, category filters, product cards~~ (done)
+6. ~~Scanner — camera EAN scan -> product detail~~ (done)
+7. ~~Einkaufsliste — quantities, +/- steppers, persistence~~ (done)
+8. ~~Rechnungen — invoice list + detail~~ (done)
 9. Profil refinements
 
 See `MASTER_ROADMAP.md` for the full phased plan and `CLAUDE_CODE_KICKOFF_PROMPT.md`

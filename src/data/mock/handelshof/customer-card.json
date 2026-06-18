@@ -1,5 +1,7 @@
 {
   "customerNumber": "HH-200738114",
   "businessName": "Restaurant Adler",
-  "validUntil": "2027-12-31"
+  "holderName": "Max Mustermann",
+  "validUntil": "2027-12-31",
+  "address": "Königstraße 14, 47198 Duisburg"
 }

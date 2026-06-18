@@ -16,7 +16,7 @@ export default function BrandPickerScreen() {
 
   const handleSelect = (brand: BrandConfig) => {
     setBrand(brand.id);
-    router.replace('/login');
+    router.replace('/brand-loading');
   };
 
   return (
@@ -25,7 +25,7 @@ export default function BrandPickerScreen() {
         <ThemedText type="title" style={styles.title} color="text">
           {strings.brandPicker.title}
         </ThemedText>
-        <ThemedText type="default" color="textSecondary">
+        <ThemedText type="default" style={styles.subtitle} color="textSecondary">
           {strings.brandPicker.subtitle}
         </ThemedText>
       </View>
@@ -47,10 +47,7 @@ export default function BrandPickerScreen() {
                 pressed && styles.cardPressed,
               ]}
             >
-              <BrandLogo brand={brand} size="large" />
-              <ThemedText type="subtitle" style={styles.cardLabel} color="text">
-                {brand.name}
-              </ThemedText>
+              <BrandLogo brand={brand} />
             </Pressable>
           </MotiView>
         ))}
@@ -69,16 +66,25 @@ const styles = StyleSheet.create({
     marginTop: Spacing.six,
     marginBottom: Spacing.five,
     gap: Spacing.two,
+    alignItems: 'center',
   },
   title: {
-    fontSize: 36,
+    fontSize: 40,
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 18,
+    lineHeight: 26,
+    textAlign: 'center',
   },
   cards: {
     flex: 1,
-    gap: Spacing.four,
+    justifyContent: 'center',
+    paddingBottom: Spacing.six,
+    gap: Spacing.five,
   },
   cardWrapper: {
-    flex: 1,
+    aspectRatio: 2.4,
   },
   card: {
     flex: 1,
@@ -86,12 +92,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    gap: Spacing.three,
   },
   cardPressed: {
     opacity: 0.8,
-  },
-  cardLabel: {
-    textAlign: 'center',
   },
 });

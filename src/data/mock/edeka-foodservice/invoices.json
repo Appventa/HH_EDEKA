@@ -1,33 +1,47 @@
 [
   {
     "id": "ef-inv-2026-0512",
+    "invoiceNumber": "0398215",
     "date": "2026-05-12",
     "branchId": "ef-001",
-    "total": 482.37,
+    "total": 390.18,
     "items": [
-      { "name": "Rinderfilet Premium", "quantity": 8, "unit": "kg", "unitPrice": 24.99 },
-      { "name": "Mineralwasser still", "quantity": 10, "unit": "Kasten", "unitPrice": 6.99 },
-      { "name": "Vollkornbrot Bäckerqualität", "quantity": 6, "unit": "Karton", "unitPrice": 14.5 }
+      { "name": "Rinderfilet Premium", "quantity": 8, "unit": "kg", "unitPrice": 24.99, "vatRate": 7 },
+      { "name": "Mineralwasser still", "quantity": 10, "unit": "Kasten", "unitPrice": 6.99, "vatRate": 19 },
+      { "name": "Vollkornbrot Bäckerqualität", "quantity": 6, "unit": "Karton", "unitPrice": 14.5, "vatRate": 7 }
     ]
   },
   {
     "id": "ef-inv-2026-0528",
+    "invoiceNumber": "0399042",
     "date": "2026-05-28",
     "branchId": "ef-001",
-    "total": 219.6,
+    "total": 239.5,
     "items": [
-      { "name": "Mozzarella Classico", "quantity": 6, "unit": "Karton", "unitPrice": 18.99 },
-      { "name": "Bio-Tomaten Strauch", "quantity": 11, "unit": "Kiste", "unitPrice": 9.99 }
+      { "name": "Mozzarella Classico", "quantity": 6, "unit": "Karton", "unitPrice": 18.99, "vatRate": 7 },
+      { "name": "Bio-Tomaten Strauch", "quantity": 11, "unit": "Kiste", "unitPrice": 9.99, "vatRate": 7 }
+    ]
+  },
+  {
+    "id": "ef-inv-2026-0529",
+    "invoiceNumber": "0399510",
+    "date": "2026-05-29",
+    "branchId": "ef-003",
+    "total": 59.04,
+    "items": [
+      { "name": "Bio-Eier Freiland 10er", "quantity": 12, "unit": "Pack", "unitPrice": 3.49, "vatRate": 7 },
+      { "name": "Spülmittel Konzentrat", "quantity": 4, "unit": "ST", "unitPrice": 2.99, "vatRate": 19 }
     ]
   },
   {
     "id": "ef-inv-2026-0603",
+    "invoiceNumber": "0401887",
     "date": "2026-06-03",
     "branchId": "ef-002",
-    "total": 350.4,
+    "total": 356.2,
     "items": [
-      { "name": "Lachsfilet Norwegen", "quantity": 10, "unit": "kg", "unitPrice": 16.49 },
-      { "name": "Pommes Frites tiefgefroren", "quantity": 6, "unit": "Karton", "unitPrice": 28.0 }
+      { "name": "Lachsfilet Norwegen", "quantity": 10, "unit": "kg", "unitPrice": 16.49, "vatRate": 7 },
+      { "name": "Pommes Frites tiefgefroren", "quantity": 6, "unit": "Karton", "unitPrice": 28.0, "vatRate": 7 }
     ]
   }
 ]

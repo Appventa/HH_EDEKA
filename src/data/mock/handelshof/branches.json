@@ -1,20 +1,5 @@
 [
   {
-    "id": "hh-001",
-    "name": "Handelshof Duisburg",
-    "street": "Krefelder Straße 137",
-    "zip": "47226",
-    "city": "Duisburg",
-    "lat": 51.3897,
-    "lng": 6.7287,
-    "phone": "02065 1234567",
-    "hours": [
-      { "day": "Mo–Fr", "time": "07:00–20:00" },
-      { "day": "Sa", "time": "07:00–18:00" },
-      { "day": "So", "time": "geschlossen" }
-    ]
-  },
-  {
     "id": "hh-002",
     "name": "Handelshof Essen",
     "street": "Frohnhauser Straße 75",
@@ -23,6 +8,21 @@
     "lat": 51.4556,
     "lng": 7.0116,
     "phone": "0201 9876543",
+    "hours": [
+      { "day": "Mo–Fr", "time": "07:00–20:00" },
+      { "day": "Sa", "time": "07:00–18:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
+    "id": "hh-001",
+    "name": "Handelshof Duisburg",
+    "street": "Krefelder Straße 137",
+    "zip": "47226",
+    "city": "Duisburg",
+    "lat": 51.3897,
+    "lng": 6.7287,
+    "phone": "02065 1234567",
     "hours": [
       { "day": "Mo–Fr", "time": "07:00–20:00" },
       { "day": "Sa", "time": "07:00–18:00" },

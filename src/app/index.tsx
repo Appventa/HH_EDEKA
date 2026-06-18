@@ -1,9 +1,8 @@
 import { useRouter } from 'expo-router';
 import { useEffect } from 'react';
-import { StyleSheet, View } from 'react-native';
-import Animated, { useAnimatedStyle, useSharedValue, withSequence, withTiming } from 'react-native-reanimated';
+import { Image, StyleSheet } from 'react-native';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
-import { ThemedText } from '@/components/themed-text';
 import { useAuthStore } from '@/state/useAuthStore';
 import { useBrandStore } from '@/state/useBrandStore';
 
@@ -16,13 +15,11 @@ export default function SplashScreen() {
   const isLoggedIn = useAuthStore((state) => state.isLoggedIn);
   const authHydrated = useAuthStore((state) => state.hasHydrated);
 
-  const scale = useSharedValue(0.8);
   const opacity = useSharedValue(0);
 
   useEffect(() => {
-    scale.value = withSequence(withTiming(1.05, { duration: 500 }), withTiming(1, { duration: 200 }));
-    opacity.value = withTiming(1, { duration: 500 });
-  }, [opacity, scale]);
+    opacity.value = withTiming(1, { duration: 400 });
+  }, [opacity]);
 
   useEffect(() => {
     if (!brandHydrated || !authHydrated) return;
@@ -40,31 +37,25 @@ export default function SplashScreen() {
     return () => clearTimeout(timer);
   }, [brandHydrated, authHydrated, brandId, isLoggedIn, router]);
 
-  const animatedStyle = useAnimatedStyle(() => ({
-    transform: [{ scale: scale.value }],
+  const imageStyle = useAnimatedStyle(() => ({
     opacity: opacity.value,
   }));
 
   return (
-    <View style={styles.container}>
-      <Animated.View style={animatedStyle}>
-        <ThemedText style={styles.title}>ONE</ThemedText>
-      </Animated.View>
-    </View>
+    <Animated.View style={[styles.container, imageStyle]}>
+      <Image source={require('@/assets/images/splash-brands.webp')} style={styles.image} resizeMode="cover" />
+    </Animated.View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#FFD500',
+    backgroundColor: '#FFFFFF',
   },
-  title: {
-    fontSize: 64,
-    fontWeight: '800',
-    color: '#003B7C',
-    letterSpacing: 4,
+  image: {
+    flex: 1,
+    width: '100%',
+    height: '100%',
   },
 });

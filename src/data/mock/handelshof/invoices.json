@@ -1,33 +1,47 @@
 [
   {
     "id": "hh-inv-2026-0510",
+    "invoiceNumber": "0451029",
     "date": "2026-05-10",
     "branchId": "hh-001",
-    "total": 312.85,
+    "total": 347.83,
     "items": [
-      { "name": "Schweinenacken frisch", "quantity": 15, "unit": "kg", "unitPrice": 8.99 },
-      { "name": "Brötchen Aufbackware", "quantity": 8, "unit": "Karton", "unitPrice": 21.0 },
-      { "name": "Apfelschorle", "quantity": 2, "unit": "Kasten", "unitPrice": 9.99 }
+      { "name": "Schweinenacken frisch", "quantity": 15, "unit": "kg", "unitPrice": 8.99, "vatRate": 7 },
+      { "name": "Brötchen Aufbackware", "quantity": 8, "unit": "Karton", "unitPrice": 21.0, "vatRate": 7 },
+      { "name": "Apfelschorle", "quantity": 2, "unit": "Kasten", "unitPrice": 9.99, "vatRate": 19 }
     ]
   },
   {
     "id": "hh-inv-2026-0524",
+    "invoiceNumber": "0452114",
     "date": "2026-05-24",
     "branchId": "hh-001",
-    "total": 178.4,
+    "total": 193.61,
     "items": [
-      { "name": "Gouda jung am Stück", "quantity": 20, "unit": "kg", "unitPrice": 6.5 },
-      { "name": "Paprika gemischt", "quantity": 6, "unit": "Kiste", "unitPrice": 8.49 }
+      { "name": "Gouda jung am Stück", "quantity": 20, "unit": "kg", "unitPrice": 6.5, "vatRate": 7 },
+      { "name": "Paprika gemischt", "quantity": 6, "unit": "Kiste", "unitPrice": 8.49, "vatRate": 7 }
+    ]
+  },
+  {
+    "id": "hh-inv-2026-0603",
+    "invoiceNumber": "0455201",
+    "date": "2026-06-03",
+    "branchId": "hh-003",
+    "total": 49.21,
+    "items": [
+      { "name": "Bindfaden 2mm 40m", "quantity": 2, "unit": "ST", "unitPrice": 2.69, "vatRate": 19 },
+      { "name": "Kassenrollen 10er Pack", "quantity": 3, "unit": "ST", "unitPrice": 11.99, "vatRate": 19 }
     ]
   },
   {
     "id": "hh-inv-2026-0607",
+    "invoiceNumber": "0455832",
     "date": "2026-06-07",
     "branchId": "hh-002",
-    "total": 459.7,
+    "total": 492.04,
     "items": [
-      { "name": "Garnelen küchenfertig", "quantity": 15, "unit": "kg", "unitPrice": 19.99 },
-      { "name": "Gemüsemix tiefgefroren", "quantity": 10, "unit": "Karton", "unitPrice": 16.0 }
+      { "name": "Garnelen küchenfertig", "quantity": 15, "unit": "kg", "unitPrice": 19.99, "vatRate": 7 },
+      { "name": "Gemüsemix tiefgefroren", "quantity": 10, "unit": "Karton", "unitPrice": 16.0, "vatRate": 7 }
     ]
   }
 ]

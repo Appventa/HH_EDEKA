@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ef-pasta",
+    "name": "Spaghetti n°5",
+    "category": "Trockenwaren",
+    "unit": "g",
+    "purchasedQuantity": 15000,
+    "existingStock": 0,
+    "purchaseNote": "15 kg (eingekauft)"
+  },
+  {
+    "id": "ef-rinderfilet",
+    "name": "Rinderfilet",
+    "category": "Fleisch",
+    "unit": "g",
+    "purchasedQuantity": 4000,
+    "existingStock": 0,
+    "purchaseNote": "4 kg (eingekauft)"
+  },
+  {
+    "id": "ef-lachs",
+    "name": "Lachsfilet (TK)",
+    "category": "Fisch",
+    "unit": "g",
+    "purchasedQuantity": 10000,
+    "existingStock": 0,
+    "purchaseNote": "10 kg (eingekauft)"
+  },
+  {
+    "id": "ef-parmesan",
+    "name": "Parmesan (gerieben)",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 4000,
+    "existingStock": 0,
+    "purchaseNote": "4 kg (eingekauft)"
+  },
+  {
+    "id": "ef-sahne",
+    "name": "Schlagsahne",
+    "category": "Molkereiprodukte",
+    "unit": "ml",
+    "purchasedQuantity": 12000,
+    "existingStock": 0,
+    "purchaseNote": "12 L (eingekauft)"
+  },
+  {
+    "id": "ef-butter",
+    "name": "Butter (Tafelqualität)",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 12000,
+    "existingStock": 0,
+    "purchaseNote": "12 kg (eingekauft)"
+  },
+  {
+    "id": "ef-olivenoel",
+    "name": "Olivenöl Extra Vergine",
+    "category": "Öle & Saucen",
+    "unit": "ml",
+    "purchasedQuantity": 10000,
+    "existingStock": 1000,
+    "purchaseNote": "10 L (eingekauft) + 1 L vorhandene"
+  },
+  {
+    "id": "ef-bruehe",
+    "name": "Hühnerbrühe (Konzentrat)",
+    "category": "Gewürze & Brühen",
+    "unit": "ml",
+    "purchasedQuantity": 60000,
+    "existingStock": 2000,
+    "purchaseNote": "2 Kanister à 30 L + 2 L vorhandene"
+  }
+]

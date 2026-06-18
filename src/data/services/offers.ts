@@ -20,3 +20,8 @@ export async function getOfferCategories(brandId: BrandId): Promise<string[]> {
   const categories = new Set(OFFERS[brandId].map((offer) => offer.category));
   return Array.from(categories);
 }
+
+export function getOfferByImageId(imageId: string, brandId: string): Offer | undefined {
+  const offers = OFFERS[brandId as BrandId] ?? [];
+  return offers.find((o) => o.imageId === imageId);
+}

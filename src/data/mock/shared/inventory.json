@@ -1,0 +1,162 @@
+[
+  {
+    "id": "inv-avocado",
+    "name": "Avocados",
+    "category": "Obst & Gemüse",
+    "unit": "Stück",
+    "purchasedQuantity": 72,
+    "existingStock": 3,
+    "purchaseNote": "6× Eimer à 12 Stk. + 3 vorhandene · Handelshof",
+    "productImageId": "avocado"
+  },
+  {
+    "id": "inv-speck",
+    "name": "Speck (Pancetta)",
+    "category": "Fleisch",
+    "unit": "g",
+    "purchasedQuantity": 2000,
+    "existingStock": 500,
+    "purchaseNote": "2 kg eingekauft + 500 g vorhandene · Handelshof",
+    "productImageId": "speck"
+  },
+  {
+    "id": "inv-mozzarella",
+    "name": "Mozzarella",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 8000,
+    "existingStock": 1200,
+    "purchaseNote": "8 kg eingekauft + 1,2 kg vorhandene · Handelshof",
+    "productImageId": "mozzarella"
+  },
+  {
+    "id": "inv-tomaten",
+    "name": "Rispentomaten",
+    "category": "Obst & Gemüse",
+    "unit": "g",
+    "purchasedQuantity": 15000,
+    "existingStock": 2000,
+    "purchaseNote": "15 kg eingekauft + 2 kg vorhandene · Handelshof",
+    "productImageId": "tomaten"
+  },
+  {
+    "id": "inv-feta",
+    "name": "Feta-Käse",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 8000,
+    "existingStock": 1000,
+    "purchaseNote": "8 kg eingekauft + 1 kg vorhandene · Handelshof",
+    "productImageId": "feta"
+  },
+  {
+    "id": "inv-eier",
+    "name": "Eier (Freilandhaltung)",
+    "category": "Molkereiprodukte",
+    "unit": "Stück",
+    "purchasedQuantity": 360,
+    "existingStock": 12,
+    "purchaseNote": "30 Hühnchen à 12 Stk. + 12 vorhandene · Handelshof",
+    "productImageId": "eier"
+  },
+  {
+    "id": "inv-champignons",
+    "name": "Champignons",
+    "category": "Obst & Gemüse",
+    "unit": "g",
+    "purchasedQuantity": 8000,
+    "existingStock": 1000,
+    "purchaseNote": "8 kg eingekauft + 1 kg vorhandene · Handelshof",
+    "productImageId": "champignons"
+  },
+  {
+    "id": "inv-weisswein",
+    "name": "Weißwein Grüner Veltliner",
+    "category": "Getränke",
+    "unit": "ml",
+    "purchasedQuantity": 24000,
+    "existingStock": 0,
+    "purchaseNote": "2 Kisten à 12 Fl. à 1 L · Handelshof",
+    "productImageId": "weisswein"
+  },
+  {
+    "id": "ef-pasta",
+    "name": "Spaghetti n°5",
+    "category": "Trockenwaren",
+    "unit": "g",
+    "purchasedQuantity": 15000,
+    "existingStock": 0,
+    "purchaseNote": "15 kg eingekauft · EDEKA Foodservice",
+    "productImageId": "pasta"
+  },
+  {
+    "id": "ef-rinderfilet",
+    "name": "Rinderfilet",
+    "category": "Fleisch",
+    "unit": "g",
+    "purchasedQuantity": 4000,
+    "existingStock": 0,
+    "purchaseNote": "4 kg eingekauft · EDEKA Foodservice",
+    "productImageId": "rinderfilet"
+  },
+  {
+    "id": "ef-lachs",
+    "name": "Lachsfilet (TK)",
+    "category": "Fisch",
+    "unit": "g",
+    "purchasedQuantity": 10000,
+    "existingStock": 0,
+    "purchaseNote": "10 kg eingekauft · EDEKA Foodservice",
+    "productImageId": "lachsfilet"
+  },
+  {
+    "id": "ef-parmesan",
+    "name": "Parmesan (gerieben)",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 4000,
+    "existingStock": 0,
+    "purchaseNote": "4 kg eingekauft · EDEKA Foodservice",
+    "productImageId": "parmesan"
+  },
+  {
+    "id": "ef-sahne",
+    "name": "Schlagsahne",
+    "category": "Molkereiprodukte",
+    "unit": "ml",
+    "purchasedQuantity": 12000,
+    "existingStock": 0,
+    "purchaseNote": "12 L eingekauft · EDEKA Foodservice",
+    "productImageId": "sahne"
+  },
+  {
+    "id": "ef-butter",
+    "name": "Butter (Tafelqualität)",
+    "category": "Molkereiprodukte",
+    "unit": "g",
+    "purchasedQuantity": 12000,
+    "existingStock": 0,
+    "purchaseNote": "12 kg eingekauft · EDEKA Foodservice",
+    "productImageId": "butter"
+  },
+  {
+    "id": "ef-olivenoel",
+    "name": "Olivenöl Extra Vergine",
+    "category": "Öle & Saucen",
+    "unit": "ml",
+    "purchasedQuantity": 10000,
+    "existingStock": 1000,
+    "purchaseNote": "10 L eingekauft + 1 L vorhandene · EDEKA Foodservice",
+    "productImageId": "olivenoel"
+  },
+  {
+    "id": "ef-bruehe",
+    "name": "Hühnerbrühe (Konzentrat)",
+    "category": "Gewürze & Brühen",
+    "unit": "ml",
+    "purchasedQuantity": 60000,
+    "existingStock": 2000,
+    "purchaseNote": "2 Kanister à 30 L + 2 L vorhandene · EDEKA Foodservice",
+    "productImageId": "bruehe"
+  }
+]

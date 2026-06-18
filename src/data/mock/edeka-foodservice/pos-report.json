@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-16",
+  "totalRevenue": 5820.00,
+  "entries": [
+    {
+      "id": "ef-dish-pasta",
+      "dishName": "Spaghetti Carbonara / Bolognese",
+      "soldCount": 60,
+      "ingredients": [
+        { "inventoryItemId": "ef-pasta", "amountPerServing": 200 },
+        { "inventoryItemId": "ef-parmesan", "amountPerServing": 30 }
+      ]
+    },
+    {
+      "id": "ef-dish-lachs",
+      "dishName": "Lachsfilet mit Sahneoße",
+      "soldCount": 20,
+      "ingredients": [
+        { "inventoryItemId": "ef-lachs", "amountPerServing": 200 },
+        { "inventoryItemId": "ef-sahne", "amountPerServing": 100 }
+      ]
+    },
+    {
+      "id": "ef-dish-rinderfilet",
+      "dishName": "Rinderfilet (180g)",
+      "soldCount": 15,
+      "ingredients": [
+        { "inventoryItemId": "ef-rinderfilet", "amountPerServing": 180 }
+      ]
+    },
+    {
+      "id": "ef-dish-rahmsauce",
+      "dishName": "Rahmsauce (Beilage)",
+      "soldCount": 35,
+      "ingredients": [
+        { "inventoryItemId": "ef-sahne", "amountPerServing": 80 },
+        { "inventoryItemId": "ef-butter", "amountPerServing": 40 }
+      ]
+    },
+    {
+      "id": "ef-dish-garlic-bread",
+      "dishName": "Knoblauchbrot",
+      "soldCount": 30,
+      "ingredients": [
+        { "inventoryItemId": "ef-butter", "amountPerServing": 60 }
+      ]
+    },
+    {
+      "id": "ef-dish-suppe",
+      "dishName": "Tagessuppe",
+      "soldCount": 40,
+      "ingredients": [
+        { "inventoryItemId": "ef-bruehe", "amountPerServing": 300 }
+      ]
+    },
+    {
+      "id": "ef-dish-salat",
+      "dishName": "Gemischter Beilagensalat",
+      "soldCount": 55,
+      "ingredients": [
+        { "inventoryItemId": "ef-olivenoel", "amountPerServing": 30 }
+      ]
+    }
+  ]
+}

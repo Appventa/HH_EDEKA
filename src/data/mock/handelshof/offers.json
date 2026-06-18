@@ -6,6 +6,7 @@
     "category": "Fleisch",
     "price": 8.99,
     "unit": "pro kg",
+    "discountPercent": 35,
     "validUntil": "2026-06-30",
     "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
     "imageId": "schweinenacken"
@@ -17,6 +18,7 @@
     "category": "Fisch",
     "price": 19.99,
     "unit": "pro kg",
+    "discountPercent": 18,
     "validUntil": "2026-06-30",
     "branchIds": ["hh-001", "hh-003"],
     "imageId": "garnelen"
@@ -28,6 +30,7 @@
     "category": "Obst & Gemüse",
     "price": 8.49,
     "unit": "pro Kiste",
+    "discountPercent": 12,
     "validUntil": "2026-06-25",
     "branchIds": ["hh-001", "hh-002", "hh-004"],
     "imageId": "paprika"
@@ -39,6 +42,7 @@
     "category": "Molkereiprodukte",
     "price": 6.5,
     "unit": "pro kg",
+    "discountPercent": 10,
     "validUntil": "2026-07-05",
     "branchIds": ["hh-002", "hh-003", "hh-004"],
     "imageId": "gouda"
@@ -50,6 +54,7 @@
     "category": "Backwaren",
     "price": 21.0,
     "unit": "pro Karton",
+    "discountPercent": 15,
     "validUntil": "2026-06-28",
     "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
     "imageId": "broetchen"
@@ -61,6 +66,7 @@
     "category": "Öle & Saucen",
     "price": 24.9,
     "unit": "pro Kanister",
+    "discountPercent": 20,
     "validUntil": "2026-07-15",
     "branchIds": ["hh-001", "hh-004"],
     "imageId": "sonnenblumenoel"
@@ -72,6 +78,7 @@
     "category": "Tiefkühl",
     "price": 16.0,
     "unit": "pro Karton",
+    "discountPercent": 22,
     "validUntil": "2026-07-10",
     "branchIds": ["hh-001", "hh-002", "hh-003"],
     "imageId": "gemuesemix"
@@ -83,8 +90,140 @@
     "category": "Getränke",
     "price": 9.99,
     "unit": "pro Kasten",
+    "discountPercent": 8,
     "validUntil": "2026-07-20",
     "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
     "imageId": "apfelschorle"
+  },
+  {
+    "id": "hh-offer-009",
+    "title": "Bügelflaschenbier",
+    "description": "Pils in Bügelflaschen, 20 x 0,5 l Kasten",
+    "category": "Getränke",
+    "price": 17.99,
+    "unit": "pro Kasten",
+    "discountPercent": 12,
+    "validUntil": "2026-07-08",
+    "branchIds": ["hh-001", "hh-002", "hh-004"],
+    "imageId": "bier"
+  },
+  {
+    "id": "hh-offer-010",
+    "title": "Rotwein Cuvée trocken",
+    "description": "Trockener Rotwein, 0,75 l Flaschen, 6er Kiste",
+    "category": "Getränke",
+    "price": 42.0,
+    "unit": "pro Kiste",
+    "discountPercent": 15,
+    "validUntil": "2026-07-25",
+    "branchIds": ["hh-002", "hh-003", "hh-004"],
+    "imageId": "rotwein"
+  },
+  {
+    "id": "hh-offer-011",
+    "title": "Limetten",
+    "description": "Frische Limetten, Kiste à 5 kg",
+    "category": "Obst & Gemüse",
+    "price": 13.49,
+    "unit": "pro Kiste",
+    "discountPercent": 10,
+    "validUntil": "2026-07-14",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "limetten"
+  },
+  {
+    "id": "hh-offer-012",
+    "title": "Avocados (Eimer à 12 Stk.)",
+    "description": "Reife Hass-Avocados, direkt vom Erzeuger, Eimer à 12 Stück",
+    "category": "Obst & Gemüse",
+    "price": 22.50,
+    "unit": "pro Eimer",
+    "discountPercent": 15,
+    "validUntil": "2026-07-12",
+    "branchIds": ["hh-001", "hh-002", "hh-003"],
+    "imageId": "avocado"
+  },
+  {
+    "id": "hh-offer-013",
+    "title": "Speck (Pancetta)",
+    "description": "Geräucherter Bauchspeck, vakuumiert, Stück ca. 500 g",
+    "category": "Fleisch",
+    "price": 18.99,
+    "unit": "pro kg",
+    "discountPercent": 10,
+    "validUntil": "2026-07-10",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "speck"
+  },
+  {
+    "id": "hh-offer-014",
+    "title": "Mozzarella (8 x 125 g)",
+    "description": "Frischer Mozzarella in Salzlake, 8 Stück à 125 g",
+    "category": "Molkereiprodukte",
+    "price": 16.50,
+    "unit": "pro Karton",
+    "discountPercent": 8,
+    "validUntil": "2026-07-05",
+    "branchIds": ["hh-001", "hh-002", "hh-004"],
+    "imageId": "mozzarella"
+  },
+  {
+    "id": "hh-offer-015",
+    "title": "Rispentomaten",
+    "description": "Reife Rispentomaten, aromatisch, Kiste à 5 kg",
+    "category": "Obst & Gemüse",
+    "price": 7.90,
+    "unit": "pro Kiste",
+    "discountPercent": 12,
+    "validUntil": "2026-07-03",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "tomaten"
+  },
+  {
+    "id": "hh-offer-016",
+    "title": "Feta-Käse (4 x 400 g)",
+    "description": "Griechischer Schafskäse in Salzlake, 4 Blöcke à 400 g",
+    "category": "Molkereiprodukte",
+    "price": 14.99,
+    "unit": "pro Karton",
+    "discountPercent": 10,
+    "validUntil": "2026-07-08",
+    "branchIds": ["hh-001", "hh-003", "hh-004"],
+    "imageId": "feta"
+  },
+  {
+    "id": "hh-offer-017",
+    "title": "Eier Freilandhaltung (30er)",
+    "description": "Frische Eier aus Freilandhaltung, Größe M–L, 30er Paket",
+    "category": "Molkereiprodukte",
+    "price": 12.99,
+    "unit": "pro Paket",
+    "discountPercent": 5,
+    "validUntil": "2026-07-01",
+    "branchIds": ["hh-001", "hh-002", "hh-003", "hh-004"],
+    "imageId": "eier"
+  },
+  {
+    "id": "hh-offer-018",
+    "title": "Champignons (Eimer 3 kg)",
+    "description": "Frische weiße Zuchtchampignons, Gastro-Großeimer 3 kg",
+    "category": "Obst & Gemüse",
+    "price": 8.49,
+    "unit": "pro Eimer",
+    "discountPercent": 15,
+    "validUntil": "2026-06-28",
+    "branchIds": ["hh-001", "hh-002", "hh-003"],
+    "imageId": "champignons"
+  },
+  {
+    "id": "hh-offer-019",
+    "title": "Weißwein Grüner Veltliner",
+    "description": "Österreichischer Qualitätswein, trocken, 0,75 l, 12er Holzkiste",
+    "category": "Getränke",
+    "price": 58.00,
+    "unit": "pro Kiste",
+    "validUntil": "2026-08-01",
+    "branchIds": ["hh-001", "hh-004"],
+    "imageId": "weisswein"
   }
 ]

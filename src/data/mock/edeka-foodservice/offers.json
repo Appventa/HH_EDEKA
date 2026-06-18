@@ -6,6 +6,7 @@
     "category": "Fleisch",
     "price": 24.99,
     "unit": "pro kg",
+    "discountPercent": 20,
     "validUntil": "2026-06-30",
     "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
     "imageId": "rinderfilet"
@@ -17,6 +18,7 @@
     "category": "Fisch",
     "price": 16.49,
     "unit": "pro kg",
+    "discountPercent": 25,
     "validUntil": "2026-06-30",
     "branchIds": ["ef-001", "ef-002"],
     "imageId": "lachsfilet"
@@ -28,6 +30,7 @@
     "category": "Obst & Gemüse",
     "price": 9.99,
     "unit": "pro Kiste",
+    "discountPercent": 12,
     "validUntil": "2026-06-25",
     "branchIds": ["ef-001", "ef-003", "ef-004"],
     "imageId": "tomaten"
@@ -39,6 +42,7 @@
     "category": "Molkereiprodukte",
     "price": 18.99,
     "unit": "pro Karton",
+    "discountPercent": 15,
     "validUntil": "2026-07-05",
     "branchIds": ["ef-002", "ef-003", "ef-004"],
     "imageId": "mozzarella"
@@ -50,6 +54,7 @@
     "category": "Backwaren",
     "price": 14.5,
     "unit": "pro Karton",
+    "discountPercent": 18,
     "validUntil": "2026-06-28",
     "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
     "imageId": "vollkornbrot"
@@ -61,6 +66,7 @@
     "category": "Öle & Saucen",
     "price": 39.9,
     "unit": "pro Kanister",
+    "discountPercent": 10,
     "validUntil": "2026-07-15",
     "branchIds": ["ef-001", "ef-004"],
     "imageId": "olivenoel"
@@ -72,6 +78,7 @@
     "category": "Tiefkühl",
     "price": 28.0,
     "unit": "pro Karton",
+    "discountPercent": 30,
     "validUntil": "2026-07-10",
     "branchIds": ["ef-001", "ef-002", "ef-003"],
     "imageId": "pommes"
@@ -83,8 +90,105 @@
     "category": "Getränke",
     "price": 6.99,
     "unit": "pro Kasten",
+    "discountPercent": 8,
     "validUntil": "2026-07-20",
     "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
     "imageId": "mineralwasser"
+  },
+  {
+    "id": "ef-offer-009",
+    "title": "Avocado Hass",
+    "description": "Vorgereifte Hass-Avocados, Kiste à 10 kg",
+    "category": "Obst & Gemüse",
+    "price": 16.99,
+    "unit": "pro Kiste",
+    "discountPercent": 15,
+    "validUntil": "2026-07-12",
+    "branchIds": ["ef-001", "ef-002", "ef-004"],
+    "imageId": "avocado"
+  },
+  {
+    "id": "ef-offer-010",
+    "title": "Ananas Extra Sweet",
+    "description": "Süße Ananas, küchenfertig vorbereitet, Kiste à 8 Stück",
+    "category": "Obst & Gemüse",
+    "price": 21.99,
+    "unit": "pro Kiste",
+    "discountPercent": 18,
+    "validUntil": "2026-07-18",
+    "branchIds": ["ef-001", "ef-003", "ef-004"],
+    "imageId": "ananas"
+  },
+  {
+    "id": "ef-offer-011",
+    "title": "Orangensaft 100%",
+    "description": "Direktsaft ohne Zuckerzusatz, 1 l Glasflaschen, 6er Kasten",
+    "category": "Getränke",
+    "price": 19.5,
+    "unit": "pro Kasten",
+    "discountPercent": 10,
+    "validUntil": "2026-07-22",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "orangensaft"
+  },
+  {
+    "id": "ef-offer-012",
+    "title": "Spaghetti n°5 (10 kg)",
+    "description": "Hartweizengrieß-Spaghetti, Kochzeit 9 Min., Karton à 10 x 1 kg",
+    "category": "Trockenwaren",
+    "price": 22.50,
+    "unit": "pro Karton",
+    "discountPercent": 10,
+    "validUntil": "2026-08-15",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "pasta"
+  },
+  {
+    "id": "ef-offer-013",
+    "title": "Schlagsahne (30 % Fett)",
+    "description": "Ungesüßte Schlagsahne für die Küche, 10 x 1 L",
+    "category": "Molkereiprodukte",
+    "price": 28.90,
+    "unit": "pro Karton",
+    "discountPercent": 8,
+    "validUntil": "2026-07-08",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "sahne"
+  },
+  {
+    "id": "ef-offer-014",
+    "title": "Butter (Tafelqualität)",
+    "description": "Deutsche Süßrahmbutter, 82 % Fett, 40 x 250 g",
+    "category": "Molkereiprodukte",
+    "price": 19.99,
+    "unit": "pro Karton",
+    "discountPercent": 12,
+    "validUntil": "2026-07-15",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "butter"
+  },
+  {
+    "id": "ef-offer-016",
+    "title": "Parmesan (gerieben)",
+    "description": "Parmigiano Reggiano, fein gerieben, Gastro-Karton 4 x 1 kg",
+    "category": "Molkereiprodukte",
+    "price": 22.50,
+    "unit": "pro Karton",
+    "discountPercent": 8,
+    "validUntil": "2026-08-10",
+    "branchIds": ["ef-001", "ef-002", "ef-003", "ef-004"],
+    "imageId": "parmesan"
+  },
+  {
+    "id": "ef-offer-015",
+    "title": "Hühnerbrühe Konzentrat",
+    "description": "Professionelle Geflügelbrühe, 30-L-Kanister, ergibt ca. 300 Portionen",
+    "category": "Gewürze & Brühen",
+    "price": 34.50,
+    "unit": "pro Kanister",
+    "discountPercent": 15,
+    "validUntil": "2026-08-01",
+    "branchIds": ["ef-001", "ef-002", "ef-004"],
+    "imageId": "bruehe"
   }
 ]

@@ -6,6 +6,7 @@ interface AuthState {
   isLoggedIn: boolean;
   stayLoggedIn: boolean;
   businessName: string | null;
+  userName: string | null;
   hasHydrated: boolean;
   login: (businessName: string, stayLoggedIn: boolean) => void;
   logout: () => void;
@@ -18,9 +19,11 @@ export const useAuthStore = create<AuthState>()(
       isLoggedIn: false,
       stayLoggedIn: false,
       businessName: null,
+      userName: null,
       hasHydrated: false,
-      login: (businessName, stayLoggedIn) => set({ isLoggedIn: true, businessName, stayLoggedIn }),
-      logout: () => set({ isLoggedIn: false, businessName: null, stayLoggedIn: false }),
+      login: (businessName, stayLoggedIn) =>
+        set({ isLoggedIn: true, businessName, userName: 'Herr Shah', stayLoggedIn }),
+      logout: () => set({ isLoggedIn: false, businessName: null, userName: null, stayLoggedIn: false }),
       setHasHydrated: (value) => set({ hasHydrated: value }),
     }),
     {

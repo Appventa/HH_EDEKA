@@ -1,0 +1,65 @@
+{
+  "date": "2026-06-16",
+  "totalRevenue": 4280.50,
+  "entries": [
+    {
+      "id": "dish-guacamole",
+      "dishName": "Guacamole (Beilage)",
+      "soldCount": 22,
+      "ingredients": [
+        { "inventoryItemId": "inv-avocado", "amountPerServing": 2 }
+      ]
+    },
+    {
+      "id": "dish-pasta-carbonara",
+      "dishName": "Pasta Carbonara",
+      "soldCount": 45,
+      "ingredients": [
+        { "inventoryItemId": "inv-eier", "amountPerServing": 2 },
+        { "inventoryItemId": "inv-speck", "amountPerServing": 40 }
+      ]
+    },
+    {
+      "id": "dish-tomaten-mozzarella",
+      "dishName": "Tomaten-Mozzarella",
+      "soldCount": 35,
+      "ingredients": [
+        { "inventoryItemId": "inv-mozzarella", "amountPerServing": 120 },
+        { "inventoryItemId": "inv-tomaten", "amountPerServing": 100 }
+      ]
+    },
+    {
+      "id": "dish-griechischer-salat",
+      "dishName": "Griechischer Salat",
+      "soldCount": 28,
+      "ingredients": [
+        { "inventoryItemId": "inv-feta", "amountPerServing": 80 },
+        { "inventoryItemId": "inv-tomaten", "amountPerServing": 80 }
+      ]
+    },
+    {
+      "id": "dish-champignon-rahm",
+      "dishName": "Champignon-Rahmsoße",
+      "soldCount": 15,
+      "ingredients": [
+        { "inventoryItemId": "inv-champignons", "amountPerServing": 120 }
+      ]
+    },
+    {
+      "id": "dish-bruschetta",
+      "dishName": "Bruschetta",
+      "soldCount": 18,
+      "ingredients": [
+        { "inventoryItemId": "inv-tomaten", "amountPerServing": 60 }
+      ]
+    },
+    {
+      "id": "dish-weinbegleitung",
+      "dishName": "Weinbegleitung (0,2 L)",
+      "soldCount": 30,
+      "ingredients": [
+        { "inventoryItemId": "inv-weisswein", "amountPerServing": 200 }
+      ]
+    }
+  ]
+}

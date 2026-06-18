@@ -41,3 +41,9 @@ example
 # generated native folders
 /ios
 /android
+.tmp/
+
+# scratch / debug artifacts
+.scratch/
+/tmp assets images/
+test-barcodes.html

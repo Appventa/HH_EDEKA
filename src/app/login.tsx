@@ -3,17 +3,23 @@ import { useState } from 'react';
 import { Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { BrandLogo } from '@/components/BrandLogo';
 import { ThemedText } from '@/components/themed-text';
 import { strings } from '@/constants/strings';
 import { Spacing } from '@/constants/theme';
 import { useAuthStore } from '@/state/useAuthStore';
+import { useBrandStore } from '@/state/useBrandStore';
 import { useBrand } from '@/theme/ThemeProvider';
 
 export default function LoginScreen() {
   const router = useRouter();
   const brand = useBrand();
   const login = useAuthStore((state) => state.login);
+  const clearBrand = useBrandStore((state) => state.clearBrand);
+
+  const handleChangeBrand = () => {
+    clearBrand();
+    router.replace('/brand-picker');
+  };
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -21,17 +27,16 @@ export default function LoginScreen() {
 
   const handleSubmit = () => {
     login(username || 'Restaurant Adler', stayLoggedIn);
-    router.replace('/(tabs)');
+    router.replace('/standort');
   };
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: brand.colors.background }]}>
       <View style={styles.header}>
-        <BrandLogo brand={brand} size="small" />
         <ThemedText type="title" style={styles.title}>
           {strings.login.title}
         </ThemedText>
-        <ThemedText type="default" color="textSecondary">
+        <ThemedText type="default" color="textSecondary" style={styles.subtitle}>
           {strings.login.subtitle}
         </ThemedText>
       </View>
@@ -88,6 +93,12 @@ export default function LoginScreen() {
         <ThemedText type="small" color="textSecondary" style={styles.hint}>
           {strings.login.demoHint}
         </ThemedText>
+
+        <Pressable onPress={handleChangeBrand} style={styles.changeBrand}>
+          <ThemedText type="small" color="accent">
+            {strings.profil.switchBrand}
+          </ThemedText>
+        </Pressable>
       </View>
     </SafeAreaView>
   );
@@ -101,10 +112,15 @@ const styles = StyleSheet.create({
   header: {
     marginTop: Spacing.six,
     marginBottom: Spacing.five,
+    alignItems: 'center',
     gap: Spacing.three,
   },
   title: {
     fontSize: 32,
+    textAlign: 'center',
+  },
+  subtitle: {
+    textAlign: 'center',
   },
   form: {
     gap: Spacing.four,
@@ -140,5 +156,9 @@ const styles = StyleSheet.create({
   },
   hint: {
     textAlign: 'center',
+  },
+  changeBrand: {
+    alignItems: 'center',
+    paddingVertical: Spacing.two,
   },
 });

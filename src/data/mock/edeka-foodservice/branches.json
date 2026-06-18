@@ -1,5 +1,20 @@
 [
   {
+    "id": "ef-004",
+    "name": "EDEKA Foodservice Köln",
+    "street": "Marktstraße 33",
+    "zip": "50667",
+    "city": "Köln",
+    "lat": 50.9413,
+    "lng": 6.9583,
+    "phone": "0221 778899",
+    "hours": [
+      { "day": "Mo–Fr", "time": "06:00–18:00" },
+      { "day": "Sa", "time": "06:00–14:00" },
+      { "day": "So", "time": "geschlossen" }
+    ]
+  },
+  {
     "id": "ef-001",
     "name": "EDEKA Foodservice Berlin",
     "street": "Großmarktstraße 12",
@@ -38,21 +53,6 @@
     "lat": 48.1115,
     "lng": 11.5436,
     "phone": "089 5551234",
-    "hours": [
-      { "day": "Mo–Fr", "time": "06:00–18:00" },
-      { "day": "Sa", "time": "06:00–14:00" },
-      { "day": "So", "time": "geschlossen" }
-    ]
-  },
-  {
-    "id": "ef-004",
-    "name": "EDEKA Foodservice Köln",
-    "street": "Marktstraße 33",
-    "zip": "50667",
-    "city": "Köln",
-    "lat": 50.9413,
-    "lng": 6.9583,
-    "phone": "0221 778899",
     "hours": [
       { "day": "Mo–Fr", "time": "06:00–18:00" },
       { "day": "Sa", "time": "06:00–14:00" },
