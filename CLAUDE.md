@@ -12,6 +12,10 @@ Using default triage label vocabulary. See `docs/agents/triage-labels.md`.
 
 Single-context layout — one `CONTEXT.md` at root + `docs/adr/`. See `docs/agents/domain.md`.
 
+### Cross-machine memory bootstrap
+
+If this is a fresh clone on a new machine (your local memory store for this project is empty or missing), read every file in `docs/agent-memory/` and re-save its content as proper memories using the normal memory flow (one memory file per topic + an entry in your `MEMORY.md` index), preserving the original `type` from each file's frontmatter. These exported files are a manual snapshot from a previous machine, not live state — verify any code claims against the current repo before trusting them. After importing, proceed with the user's request normally; no need to mention this step unless something in the snapshot looks stale or contradicts what you find in the code.
+
 
 # Rules
 

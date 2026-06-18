@@ -1,0 +1,2 @@
+- [Build progress](project_build_progress.md) — tracks which screens of the dual-brand app are done; check before continuing.
+- [Android native build](project_android_native_build.md) — release vs debug APK, local.properties gotcha, @expo/ui removal.
